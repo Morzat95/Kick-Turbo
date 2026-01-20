@@ -1,0 +1,39 @@
+/* Estilo para el botón de Donar */
+#kick-turbo-donate-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	/* Posicionamiento */
+	margin-top: 10px;
+	width: 100%; /* Ocupar todo el ancho debajo del chat */
+	padding: 10px 0;
+
+	/* Estética Kick / Ceneka */
+	background-color: #53fc18; /* Verde Kick */
+	color: #000000;
+	font-weight: 800;
+	font-family: Inter, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	transition:
+		background-color 0.2s,
+		transform 0.1s;
+
+	/* Sombra neon suave */
+	box-shadow: 0 0 10px rgba(83, 252, 24, 0.2);
+}
+
+#kick-turbo-donate-btn:hover {
+	background-color: #42c813;
+	box-shadow: 0 0 15px rgba(83, 252, 24, 0.4);
+}
+
+#kick-turbo-donate-btn:active {
+	transform: scale(0.98);
+}
